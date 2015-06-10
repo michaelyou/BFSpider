@@ -1,10 +1,10 @@
 #BFSpider
-BFSpider = Breadth-first search Spider
-不是boy friend spider
+BFSpider = **Breadth-first search Spider**
 
-程序概述：
+**不是**boy friend spider
+
+##程序概述：
 爬虫采用广度优先策略，以**线程池**的方式实现。
-
 
 TreadPoolSlot类是一个具体的线程实现，TreadPool类负责管理创建的线程，
 Spider类则是一个具体的爬虫。Spider.start方法向TreadPool中添加任务，而TreadPoolSlot不停的从TreadPool的任务队列中取出任务执行
